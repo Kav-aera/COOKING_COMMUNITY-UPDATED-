@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body style="background-image: -webkit-linear-gradient(200deg, aliceblue, rgb(167, 235, 255),aliceblue);">
+
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+        <a href="add-recipe.html" class="nav-link"> Add recipes </a>
+        <a href="login.html" class="nav-link">login </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-herbaltea.jpg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Herbal Tea</h2>
+          <p>
+            <b>How to Make Herbal tea</b></br>
+
+            Herbal tea is a delightful and soothing beverage made by steeping herbs, 
+            flowers, or other plant materials in hot water. Here's a basic recipe for making herbal tea:
+
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags :
+            <a href="tags.html">beverage</a>
+            <a href="tags.html">drinks</a>
+            <a href="tags.html">food</a>
+          </p>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1 : CHOOSE YOUR HERBS</p>
+              <div></div>
+            </header>
+            <p>
+                Select the herbs or herbal blend you'd like to use for your tea. You can use a single herb or create 
+                a custom blend of herbs to suit your taste. Common choices include chamomile, peppermint, lavender, 
+                ginger, hibiscus, and many more.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2: COOK</p>
+              <div></div>
+            </header>
+            <p>
+              Place herbs in a cup or tea infuser.
+              Pour boiling water over herbs.
+              Steep for 5-7 minutes.
+              Remove herbs or infuser.
+              Sweeten (optional).
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3: SERVE</p>
+              <div></div>
+            </header>
+            <p>
+              Serve your herbal tea immediately.Enjoy it with your favourite meal.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">1-2 teaspoons of dried herbs (herbs of your choice)</p>
+            <p class="single-ingredient">1 cup of boiling water</p>
+
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Teapot or Mug</p>
+            <p class="single-tool">Dried Herbs</p>
+            <p class="single-tool">Tea Infuser (Optional)</p>
+            <p class="single-tool">Boiling Water</p>
+            <p class="single-tool">Lid or Saucer (Optional)</p>
+
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

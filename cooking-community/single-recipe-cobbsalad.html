@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body style="background-image: -webkit-linear-gradient(200deg, aliceblue, rgb(167, 235, 255),aliceblue);">
+
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+        <a href="add-recipe.html" class="nav-link"> Add recipes </a>
+        <a href="login.html" class="nav-link">login </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-cobbsalad.jpg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Cobb salad</h2>
+          <p>
+            <b>How to Make cobb salad</b></br>
+
+            A Cobb Salad is a classic American salad that's hearty and packed with flavor. It typically includes a variety of 
+            ingredients, and you can adjust it to your taste. Here's a basic recipe for a Cobb Salad:
+
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags :
+            <a href="tags.html">breakfast</a>
+            <a href="tags.html">taco</a>
+            <a href="tags.html">food</a>
+          </p>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1 : PREPARE THE DRESSING</p>
+              <div></div>
+            </header>
+            <p>
+                In a small bowl, whisk together the olive oil, red wine vinegar, Dijon mustard, honey, salt, and pepper. 
+                Adjust the seasonings to taste.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2: ASSEMBLE THE SALAD</p>
+              <div></div>
+            </header>
+            <p>
+                On a large serving platter or individual plates, arrange the chopped romaine and iceberg lettuce as the base.
+                Arrange the hard-boiled eggs, diced tomatoes, diced chicken breast, crumbled cheese, crumbled bacon, diced 
+                avocado, and diced red onion in rows or sections on top of the lettuce.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3: GARNISH AND SERVE</p>
+              <div></div>
+            </header>
+            <p>
+                Drizzle the dressing over the Cobb Salad. If desired, garnish with chopped fresh parsley or chives. Serve 
+                the Cobb Salad immediately. You can also serve the dressing on the side for guests to add as they like.
+            </p>
+          </div>
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient"> 2 cups chopped romaine lettuce</p>
+            <p class="single-ingredient">2 cups chopped iceberg lettuce</p>
+            <p class="single-ingredient">2 hard-boiled eggs, chopped</p>
+            <p class="single-ingredient">2 medium tomatoes, diced</p>
+            <p class="single-ingredient">1 cup cooked and diced chicken breast</p>
+            <p class="single-ingredient">1/2 cup crumbled blue cheese or feta cheese</p>
+            <p class="single-ingredient">4 slices of cooked bacon, crumbled</p>
+            <p class="single-ingredient">1 avocado, diced</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Cutting Board and Knife</p>
+            <p class="single-tool">Large Salad Platter or Individual Plates</p>
+            <p class="single-tool">Mixing Bowl</p>
+            <p class="single-tool">Whisk</p>
+            <p class="single-tool">Measuring Cups and Spoons</p>
+            <p class="single-tool">Small Bowl (for dressing)</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
